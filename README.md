@@ -270,15 +270,15 @@ body {
 #### Border Radius (Circular Elements)
 ```css
 .profile-picture {
-  border-radius: 50px;      /* Creates circular shape */
+  border-radius: 50px;      /* Large value creates circular shape for 36px image */
 }
 
 .current-user-picture {
-  border-radius: 16px;      /* 50% of height (32px) = circular */
+  border-radius: 16px;      /* Half of height (32px / 2) = circular */
 }
 
 .voice-search-button {
-  border-radius: 20px;      /* 50% of width/height = circular */
+  border-radius: 20px;      /* Half of width/height (40px / 2) = circular */
 }
 ```
 
@@ -524,8 +524,8 @@ This project uses modern CSS features and is compatible with:
 ### CSS Features Used
 - CSS Grid (95%+ browser support)
 - Flexbox (98%+ browser support)
-- CSS Custom Properties (94%+ browser support)
 - Media Queries (98%+ browser support)
+- Box Shadow (97%+ browser support)
 
 ## 📚 Learning Outcomes
 
